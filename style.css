@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+.gallery-image img {
+  width: 100%;
+}
+
+body {
+  padding: 10px;
+}
+
+header .header-banner {
+
+  background-image: url("img/banner.jpg");
+  margin: auto;
+  width: 80%;
+  height: calc(100vh - 500px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  border-radius: 25px;
+
+}
+
+  
+header .logo {
+  margin: auto;
+  width: 50%;
+
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  
+}
+  
+header h1 {
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  /* font-style: italic; */
+  font-size: 60px;
+  color: #000000;
+  line-height: 70px;
+  text-transform: uppercase;
+  /* text-shadow: 0px 4px 0px #000000; */
+  
+}
+  
+header h2 {
+  
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+header nav ul {
+
+  display: block;
+  margin: 0 auto;
+  text-align: center; /*IE*/
+  width: fit-content;
+  
+}
+
+header nav ul li {
+  
+  display: inline-block;
+  padding: 16px 16px;
+  
+}
+
+
+nav ul li a {
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #172029;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+main .meist {
+  
+  padding-top: 10%;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10%;
+  font-size: 16px;
+
+}
+main .meist .tekst {
+  width: 40%;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  
+}
+main .meist .tekst h {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #172029;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 100px;
+}
+main .chefs {
+  background-image: url("img/chefs.jpg");
+  width: 40%;
+  aspect-ratio: 2/1;
+  /* height: calc(100vh - 700px); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  border-radius: 25px;
+}
+
+main .foods {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+main .foods .estonian {
+  background-image: url("img/estonian_food.jpg");
+  width: 200px; 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: #00000000;
+}
+
+main .foods .estonian:hover {
+  color: #000000;
+  text-decoration: none;
+  text-shadow:
+    0.05em 0 white,
+    0 0.05em white,
+    -0.05em 0 white,
+    0 -0.05em white,
+    -0.05em -0.05em white,
+    -0.05em 0.05em white,
+    0.05em -0.05em white,
+    0.05em 0.05em white;
+}
+
+main .foods .asian {
+  background-image: url("img/asian_food.jpg");
+  width: 200px; 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: #00000000;
+}
+
+main .foods .asian:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+main .foods .italian {
+  background-image: url("img/italian_food.jpg");
+  width: 200px; 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: #00000000;
+}
+
+main .foods .italian:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+footer {
+
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  background-color: #172029;
+  margin-top: 20px;
+  overflow: hidden;
+
+}
+
+
+footer ul {
+
+  width: fit-content;
+  float: left;
+  padding-left: 0px;
+  
+}
+  
+footer ul li {
+  
+  display: block;
+  padding: 0 0 10px 0;
+  
+}
+  
+footer ul li p {
+  
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  
+} 
+  
+footer ul li a {
+  
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+.footer-sm {
+
+  width: 32px;
+  float: right;
+
+}
+
+.footer-sm img {
+
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+@media only screen and (min-width: 950px) {   
+
+  header .header-banner {
+  
+        height: calc(100vh - 400px);
+  
+  }   
+  
+  header h1 a {
+  
+        font-size: 80px;
+  
+  }  
+  
+  header h2 {
+  
+        font-size: 24px;
+        margin-top: 20px;
+  
+  }
+  
+  header nav ul li {
+  
+         padding: 16px 42px;
+  
+  }
+
+  .disclaimer {
+
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+    margin: 0 80px;
+
+}
+
+.disclaimer span {
+
+    font-style: italic;
+
+}
+  
+  }
